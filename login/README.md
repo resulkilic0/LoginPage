@@ -1,5 +1,13 @@
 # vue-login
 
+## Kullanıcı adı
+```
+kilicresul@gmail.com
+
+## Sifre
+```
+kilic123
+
 ## Project setup
 ```
 npm install
