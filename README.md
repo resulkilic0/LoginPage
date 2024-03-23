@@ -6,6 +6,10 @@ Kullanıcı Adı: kilicresul@gmail.con
 
 Şifre: kilic123
 
+Proje gereklilik: npm install
+
+Proje Çalıştırma: npm run serve
+
 Ekran Görüntüleri
 
 ![giriş sayfası](https://github.com/resulkilic0/LoginPage/assets/164054772/30586889-ea10-4682-ba54-3e00c8605139)
