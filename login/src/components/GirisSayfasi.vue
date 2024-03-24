@@ -37,6 +37,13 @@ export default {
       this.girisDeneme = true; // Giriş denemesini işaretler
       if (this.k_adi === 'kilicresul@gmail.com' && this.sifre === 'kilic123'  && this.guvenlik === '2CCEX' ) { // girdilerin doğruluğunu kontrol eder
         this.girisBasarili = true;
+        // Giriş başarılıysa kontrol paneline yönlendir
+        this.$router.push({ name: 'KontrolPaneli' }).then(() => {
+          console.log('Yönlendirme başarılı!');
+        }).catch(err => {
+          console.error('Yönlendirme sırasında bir hata oluştu:', err);
+        });
+
       } else {
         this.girisBasarili = false;
       }
