@@ -18,6 +18,7 @@ Ekran Görüntüleri
 ![giriş basarısız](https://github.com/resulkilic0/LoginPage/assets/164054772/3d2f3974-7f51-4572-b366-2e908d35eb47)
 
 DASHBOARD
+
 Giriş sayfasından yönlendirme için projeye Router eklendi. (src/router/index.js) (nmp install vue-router)
 
 Kontrol paneli sayfası oluşturuldu. (src/components/KontrolPaneli.vue)
