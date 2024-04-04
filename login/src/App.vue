@@ -1,16 +1,14 @@
 <template>
   <div id="app">
-    <GirisSayfasi />
+    <router-view></router-view> <!-- artık Router tarafından yönetilen sayfalar burada görüntülenecek -->
   </div>
 </template>
 
 <script>
-import GirisSayfasi from './components/GirisSayfasi.vue'
-
 export default {
-  name: 'App',
-  components: {
-    GirisSayfasi
-  }
+  name: 'App'
 }
 </script>
+
+<style>
+</style>
